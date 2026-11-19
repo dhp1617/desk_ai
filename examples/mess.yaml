@@ -1,0 +1,42 @@
+# Mess / Dining menu for Buddy
+Monday:
+  breakfast: "Idli, Sambar, Coconut Chutney, Tea & Coffee"
+  lunch: "Steamed Rice, Dal Tadka, Paneer Butter Masala, Roti, Curd, Salad"
+  snacks: "Samosa with Mint Chutney, Tea"
+  dinner: "Jeera Rice, Rajma Masala, Tawa Roti, Mixed Veg, Gulab Jamun"
+
+Tuesday:
+  breakfast: "Poha, boiled eggs, bread toast, juice"
+  lunch: "Rice, Kadhi Pakoda, Aloo Gobhi, Phulka, Buttermilk"
+  snacks: "Bread Pakoda, Filter Coffee"
+  dinner: "Veg Biryani, Mirchi Ka Salan, Onion Raita, Roti"
+
+Wednesday:
+  breakfast: "Masala Dosa, Tomato Chutney, Coffee"
+  lunch: "Lemon Rice, Sambar, Bhindi Fry, Curd"
+  snacks: "Biscuits, Masala Chai"
+  dinner: "Chapati, Dal Makhani, Dum Aloo, Kheer"
+
+Thursday:
+  breakfast: "Aloo Paratha, Mint Raita, Pickle, Tea"
+  lunch: "Rice, Chole Masala, Bhature / Puri, Salad"
+  snacks: "Vada Pav, Cutting Chai"
+  dinner: "Khichdi, Papad, Kadhi, Seasonal Sabzi"
+
+Friday:
+  breakfast: "Upma with Coconut Chutney, Banana, Tea"
+  lunch: "Fried Rice, Veg Manchurian, Spring Rolls, Clear Soup"
+  snacks: "Corn Chaat, Green Tea"
+  dinner: "Paneer Tikka Masala, Butter Naan, Rice, Ice Cream"
+
+Saturday:
+  breakfast: "Puri Bhaji, Halwa, Tea"
+  lunch: "Rajma Chawal, Papad, Pickle, Curd"
+  snacks: "Bhel Puri, Lemonade"
+  dinner: "Pasta Arrabbiata, Garlic Bread, Fresh Fruit Salad"
+
+Sunday:
+  breakfast: "Chole Kulche, Sweet Lassi"
+  lunch: "Special Thali: Pulao, Dal, Paneer, Naan, Sweet"
+  snacks: "Pastry, Cold Coffee"
+  dinner: "Light Khichdi, Curd, Roasted Papad"

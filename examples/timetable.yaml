@@ -1,0 +1,41 @@
+# Class timetable for Buddy (exact lookup)
+# Times like 10:30 are supported even if unquoted
+Monday:
+  - time: 09:00
+    class: "Computer Systems Architecture"
+    room: "CS-101"
+  - time: 11:30
+    class: "Operating Systems"
+    room: "CS-204"
+  - time: 14:00
+    class: "Algorithms Lab"
+    room: "Lab-3"
+
+Tuesday:
+  - time: 10:00
+    class: "Linear Algebra"
+    room: "Math-2"
+  - time: 14:30
+    class: "Database Systems"
+    room: "CS-102"
+
+Wednesday:
+  - time: 09:30
+    class: "Computer Networks"
+    room: "CS-201"
+  - time: 11:00
+    class: "Artificial Intelligence"
+    room: "Auditorium"
+
+Thursday:
+  - time: 10:30
+    class: "Distributed Computing"
+    room: "CS-301"
+
+Friday:
+  - time: 09:00
+    class: "Compiler Design"
+    room: "CS-205"
+  - time: 15:00
+    class: "Seminar"
+    room: "Hall-A"

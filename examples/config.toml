@@ -1,0 +1,52 @@
+# Buddy configuration file (~/.config/buddy/config.toml)
+
+[server]
+host = "127.0.0.1"
+port = 9931
+model_hf = "LiquidAI/LFM3-Omni-2B-GGUF:Q4_K_M"
+n_ctx = 32768
+ngl = 99
+autostart = true
+health_timeout = 120.0
+extra_args = []
+
+[audio]
+sample_rate = 16000
+output_rate = 24000
+vad_threshold = 0.5
+min_speech_ms = 250
+pre_roll_ms = 300
+wake_pre_roll_ms = 1500
+jitter_buffer_ms = 200
+silence_timeout_ms = 1500
+
+[agent]
+wake_word = "buddy"
+wake_backend = "vosk"       # "vosk" or "openwakeword"
+follow_up_s = 8.0           # Listen 8s without wake word after an answer
+always_timeout_s = 600.0    # 10 min idle fallback to wake mode
+barge_in = "wake"           # "wake" (laptop speakers) or "vad" (headphones/PipeWire echo-cancel)
+think_timeout_s = 30.0
+context_threshold = 0.80    # Consolidate at 80% context capacity
+context_consolidate = 0.20  # Consolidate oldest 20%
+max_output_tokens = 4096
+
+[notice]
+class_remind_min = 10       # 10 min before class
+meal_remind_min = 15        # 15 min before meal
+email_poll_min = 10         # Poll unread email every 10 min
+min_interval_s = 15         # At least 15s between proactive notices
+
+[orb]
+size = 48
+use_layer_shell = true
+position = "bottom-right"
+margin = 24
+
+[google]
+client_secrets_file = ""    # Path to client_secrets.json from GCP
+token_file = ""             # Defaults to ~/.config/buddy/google_token.json
+
+[tools]
+allowed_apps = ["firefox", "chromium", "code", "nautilus", "thunar", "kitty", "alacritty"]
+plugin_dir = ""             # Defaults to ~/.config/buddy/tools
